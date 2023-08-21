@@ -1,0 +1,1508 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/rncreswe/timed-staking-contracts/contracts/EIP712.sol": {
+      "lastModificationDate": 1663143163309,
+      "contentHash": "310ed67fd9f73348b4fbe9dc58da12ee",
+      "sourceName": "contracts/EIP712.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Vault.sol": {
+      "lastModificationDate": 1686485806863,
+      "contentHash": "b490542be5162068dc3a2e4d499cba1e",
+      "sourceName": "contracts/Vault.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol",
+        "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@uniswap/lib/contracts/libraries/TransferHelper.sol",
+        "./EIP712.sol",
+        "./ERC1271.sol",
+        "./OwnableERC721.sol",
+        "@openzeppelin/contracts/cryptography/ECDSA.sol",
+        "./RageQuit.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IERC1271",
+        "IUniversalVault",
+        "Vault"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/ERC1271.sol": {
+      "lastModificationDate": 1663143163308,
+      "contentHash": "3869fa032cafc2472af7b1ff1facf290",
+      "sourceName": "contracts/ERC1271.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/cryptography/ECDSA.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "ERC1271",
+        "IERC1271",
+        "SignatureChecker"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/OwnableERC721.sol": {
+      "lastModificationDate": 1663143163309,
+      "contentHash": "1051a430794bd5314035a8abf4eb1139",
+      "sourceName": "contracts/OwnableERC721.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/IERC721.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "OwnableERC721"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/RageQuit.sol": {
+      "lastModificationDate": 1663156734825,
+      "contentHash": "c867cb017cb422d48c0bd656842c4afe",
+      "sourceName": "contracts/RageQuit.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IRageQuit"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1663143204548,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1663143204547,
+      "contentHash": "373a483bb0a88668c0735924d84f50f1",
+      "sourceName": "@openzeppelin/contracts/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts-upgradeable/proxy/Initializable.sol": {
+      "lastModificationDate": 1663143204563,
+      "contentHash": "71b3ac8d4da61bb6c6708c12f56e3c1f",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24 <0.8.0"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1663143205828,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1663143205832,
+      "contentHash": "e82621b83943f11c44988c60e83d6ebc",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/introspection/IERC165.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "0d62a8380952235f135dae91590f90a3",
+      "sourceName": "@openzeppelin/contracts/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1663143204563,
+      "contentHash": "aa72beb3bf14f8394b4a8a292d66589c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/StakingCenterTimed.sol": {
+      "lastModificationDate": 1686710690135,
+      "contentHash": "9a7eb0ac2d8504e0d516ba9e66a9a8c7",
+      "sourceName": "contracts/StakingCenterTimed.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@uniswap/lib/contracts/libraries/TransferHelper.sol",
+        "./PowerSwitch/Powered.sol",
+        "./Vault.sol",
+        "./RewardPool.sol",
+        "./Factory/IFactory.sol",
+        "./Factory/IVaultFactory.sol",
+        "./Factory/InstanceRegistry.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IStakingCenterTimed",
+        "StakingCenterTimed"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/PowerSwitch/Powered.sol": {
+      "lastModificationDate": 1663143163309,
+      "contentHash": "d5a89894f93fa4ed77214119bf8a45c8",
+      "sourceName": "contracts/PowerSwitch/Powered.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PowerSwitch.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IPowered",
+        "Powered"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/RewardPool.sol": {
+      "lastModificationDate": 1663143163308,
+      "contentHash": "d3d6dc0029733d17931073ca7786dc62",
+      "sourceName": "contracts/RewardPool.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@uniswap/lib/contracts/libraries/TransferHelper.sol",
+        "./PowerSwitch/Powered.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IRewardPool",
+        "RewardPool"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/IFactory.sol": {
+      "lastModificationDate": 1663143163311,
+      "contentHash": "b3a544d51a8db300db8da968347711be",
+      "sourceName": "contracts/Factory/IFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IFactory"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/IVaultFactory.sol": {
+      "lastModificationDate": 1663143163312,
+      "contentHash": "7c063284d791dae29cdf5fc195a99a00",
+      "sourceName": "contracts/Factory/IVaultFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IVaultFactory"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/InstanceRegistry.sol": {
+      "lastModificationDate": 1663143163313,
+      "contentHash": "6c3896d4ea65dcd123f902c5cd21c464",
+      "sourceName": "contracts/Factory/InstanceRegistry.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/EnumerableSet.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IInstanceRegistry",
+        "InstanceRegistry"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1663143204557,
+      "contentHash": "91a7735bfcbb48c7482f10f1083a8ed8",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/PowerSwitch/PowerSwitch.sol": {
+      "lastModificationDate": 1663143163309,
+      "contentHash": "3148721f4de7c9d58fe82d3a850a8fb6",
+      "sourceName": "contracts/PowerSwitch/PowerSwitch.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IPowerSwitch",
+        "PowerSwitch"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1663143204547,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1663143204563,
+      "contentHash": "9f901c17a18eadc08042b6a510da3b7d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1663143205832,
+      "contentHash": "2d9804eb2b6f41ea0a65115e154d90eb",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC721.sol",
+        "./IERC721Metadata.sol",
+        "./IERC721Enumerable.sol",
+        "./IERC721Receiver.sol",
+        "../../introspection/ERC165.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol",
+        "../../utils/EnumerableSet.sol",
+        "../../utils/EnumerableMap.sol",
+        "../../utils/Strings.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/introspection/ERC165.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "08f854e2dd3c262845bba38c9b48e4e0",
+      "sourceName": "@openzeppelin/contracts/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "c86a31bacf868d392eda08a0eccc4735",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1663143205832,
+      "contentHash": "fad0b3f4424bdbb4b35467b29ea8d334",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/utils/EnumerableMap.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "b1bb8570824c668943149211d74d6c51",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableMap.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableMap"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Metadata.sol": {
+      "lastModificationDate": 1663143205832,
+      "contentHash": "370e7a48f316401b5063bcb604843e1b",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol": {
+      "lastModificationDate": 1663143205832,
+      "contentHash": "eaebc3874248c26f6ea0b13b9a140a94",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/RewardPoolFactory.sol": {
+      "lastModificationDate": 1663143163310,
+      "contentHash": "5c0d157ab29d166bd17cb598520a6a3b",
+      "sourceName": "contracts/Factory/RewardPoolFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "./IFactory.sol",
+        "./InstanceRegistry.sol",
+        "../RewardPool.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "RewardPoolFactory"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/VaultFactory.sol": {
+      "lastModificationDate": 1686485867376,
+      "contentHash": "5603a4df69ddb4359b37893ded9adc62",
+      "sourceName": "contracts/Factory/VaultFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "./IVaultFactory.sol",
+        "./InstanceRegistry.sol",
+        "./ProxyFactory.sol",
+        "../Vault.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "VaultFactory"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/ProxyFactory.sol": {
+      "lastModificationDate": 1663143163313,
+      "contentHash": "a8e344006d6ffe1839dd7b03d82db75b",
+      "sourceName": "contracts/Factory/ProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/proxy/Clones.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "ProxyFactory"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@openzeppelin/contracts/proxy/Clones.sol": {
+      "lastModificationDate": 1663143204553,
+      "contentHash": "fc407ad42a493624854f6b33c44e9b00",
+      "sourceName": "@openzeppelin/contracts/proxy/Clones.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Clones"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/StakingCenterFactory.sol": {
+      "lastModificationDate": 1663143163311,
+      "contentHash": "ad8a90c44e6f645f282f5db69da599c6",
+      "sourceName": "contracts/Factory/StakingCenterFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./InstanceRegistry.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "StakingCenterFactory"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/contracts/Factory/PowerSwitchFactory.sol": {
+      "lastModificationDate": 1663143163311,
+      "contentHash": "71b2336a3be14d4cd9f87725322a66ab",
+      "sourceName": "contracts/Factory/PowerSwitchFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "./IFactory.sol",
+        "./InstanceRegistry.sol",
+        "../PowerSwitch/PowerSwitch.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "PowerSwitchFactory"
+      ]
+    },
+    "/Users/rncreswe/timed-staking-contracts/node_modules/@uniswap/lib/contracts/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1663143205963,
+      "contentHash": "7fad4038612c5f040ebd746a3e58e0db",
+      "sourceName": "@uniswap/lib/contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    }
+  }
+}

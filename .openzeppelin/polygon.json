@@ -1,0 +1,1282 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x79Eeac9d854aB04653a4d9B290b61e1e7289302C",
+    "txHash": "0xb573c2d148317e4530f47d9dc196fae422ac3d1a84a06f37d20a774eabb3ee93"
+  },
+  "proxies": [
+    {
+      "address": "0x87456cdAd54F01F982BD5d9F6fdAee239Db75261",
+      "txHash": "0x6805350c47e33935c4c373f93460a051120f2a717f2d1cefa2394f224f218e62",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1e5ea0F94A3F0513A8963d7a75f4a5691E9C1241",
+      "txHash": "0x0ab3d01534629745190379978c18c3e98ebd9a5fbaaebddd9350ddea59eb5b9f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb346A800Bd1EBF0F40Ef510535Fa3F598e9DBAAf",
+      "txHash": "0x2312339540bccca65bee6692fb465e46cbae81f2f0262b7080e32db9d2bbb4a5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc6036A39aA8F4254537EF515efB1f13AA3Fd7967",
+      "txHash": "0x0424871e8341ab751afc8b6c57658461c22e4130d629b44c952ef5552c661195",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0373e6b94380Ae83e8246DDec938644cAE4Ed725",
+      "txHash": "0xafe6473fa14c33751ed161fedf1a42c1b597a840669f2fda50c4719597d5c0d1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x79639ABD2B8CC9009Fe1e5fe19FB4C36270Ea32B",
+      "txHash": "0x2b4818621f6f9769ca97086584f5de8ddd49de74b27a428672377c7e482ff2c6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x20334b38A34656ecd7A50a136fD338059C3F7A1b",
+      "txHash": "0x54efcef0c57b62b8bddbeadd0f062e895e7303bfee5987992633846f14efb75f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x00f58172beEb21e1a2b127F5F2CA92fa6fb32097",
+      "txHash": "0x48dc5e07f48e8b805287bee9f7eb47a1b362f7c3907537c399b770023b573231",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x04733F39c69B556A44182887F91Ee4541999D026",
+      "txHash": "0x963bbd6044b1369d678f98948f12977efe4c74700d11bcd5a13fe329bba7f355",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "eba86288ee50defc5b9c1c58f348c1bddc541a490edd16f3ab5d22bef6fe3023": {
+      "address": "0x10e2b5B37Dd443bC1dC6aA37df3025F4cBabbf8A",
+      "txHash": "0x89a8d2349e30c9172ad3ebb6317e3e3571b002e43dabf453e0fab4dff61b00b1",
+      "layout": {
+        "storage": [
+          {
+            "label": "_powerSwitch",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Powered",
+            "src": "contracts/PowerSwitch/Powered.sol:23"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_stakingCenter",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_struct(StakingCenterData)5662_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:114"
+          },
+          {
+            "label": "_vaults",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_struct(VaultData)5677_storage)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:115"
+          },
+          {
+            "label": "_rewardsEarned",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:116"
+          },
+          {
+            "label": "_bonusTokenSet",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_struct(AddressSet)3584_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:117"
+          },
+          {
+            "label": "_vaultFactory",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_address",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:118"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(RewardSchedule)5669_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(StakeData)5682_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.StakeData[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(VaultData)5677_storage)": {
+            "label": "mapping(address => struct IStakingCenterTimed.VaultData)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AddressSet)3584_storage": {
+            "label": "struct EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)3319_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(RewardSchedule)5669_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule",
+            "members": [
+              {
+                "label": "duration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "shares",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Set)3319_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(StakeData)5682_storage": {
+            "label": "struct IStakingCenterTimed.StakeData",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(StakingCenterData)5662_storage": {
+            "label": "struct IStakingCenterTimed.StakingCenterData",
+            "members": [
+              {
+                "label": "stakingToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "rewardToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "rewardPool",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "rewardSharesOutstanding",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "totalStakeUnits",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "lastUpdate",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "lockDuration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "rewardSchedules",
+                "type": "t_array(t_struct(RewardSchedule)5669_storage)dyn_storage",
+                "offset": 0,
+                "slot": "8"
+              }
+            ],
+            "numberOfBytes": "288"
+          },
+          "t_struct(VaultData)5677_storage": {
+            "label": "struct IStakingCenterTimed.VaultData",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "stakes",
+                "type": "t_array(t_struct(StakeData)5682_storage)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "f69df7936cf4fa8203981738d920bf0072e3f555d4735b66a9f3fb70c39f09bc": {
+      "address": "0x49a0291846d3d50e03334239E85d8BD3C9e83Ad8",
+      "txHash": "0x1138ef89d0d69898df4b52b1bb3c68950f361a8b7a89a18378bdd53c22901505",
+      "layout": {
+        "storage": [
+          {
+            "label": "_powerSwitch",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Powered",
+            "src": "contracts/PowerSwitch/Powered.sol:23"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_stakingCenter",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_struct(StakingCenterData)5664_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:115"
+          },
+          {
+            "label": "_vaults",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_struct(VaultData)5679_storage)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:116"
+          },
+          {
+            "label": "_rewardsEarned",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:117"
+          },
+          {
+            "label": "_bonusTokenSet",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_struct(AddressSet)3584_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:118"
+          },
+          {
+            "label": "_vaultFactory",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_address",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:119"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(RewardSchedule)5671_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(StakeData)5686_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.StakeData[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(VaultData)5679_storage)": {
+            "label": "mapping(address => struct IStakingCenterTimed.VaultData)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AddressSet)3584_storage": {
+            "label": "struct EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)3319_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(RewardSchedule)5671_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule",
+            "members": [
+              {
+                "label": "duration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "shares",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Set)3319_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(StakeData)5686_storage": {
+            "label": "struct IStakingCenterTimed.StakeData",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(StakingCenterData)5664_storage": {
+            "label": "struct IStakingCenterTimed.StakingCenterData",
+            "members": [
+              {
+                "label": "stakingToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "rewardToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "rewardPool",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "rewardSharesOutstanding",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "totalStakeUnits",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "lastUpdate",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "lockDuration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "rewardSchedules",
+                "type": "t_array(t_struct(RewardSchedule)5671_storage)dyn_storage",
+                "offset": 0,
+                "slot": "8"
+              }
+            ],
+            "numberOfBytes": "288"
+          },
+          "t_struct(VaultData)5679_storage": {
+            "label": "struct IStakingCenterTimed.VaultData",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "stakes",
+                "type": "t_array(t_struct(StakeData)5686_storage)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "4e1b6c8c9668d903b977412fc191cd0659d6324250f42c50b576000c6260b6ce": {
+      "address": "0x1e9bd22A889b77075e7a1C6329e73233f01fC468",
+      "txHash": "0x3ccc0ceedbd8049ab94ca33c9be0ced0d30a865f999caa89c62093fcb2257cdd",
+      "layout": {
+        "storage": [
+          {
+            "label": "_powerSwitch",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Powered",
+            "src": "contracts/PowerSwitch/Powered.sol:23"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_stakingCenter",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_struct(StakingCenterData)5664_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:115"
+          },
+          {
+            "label": "_vaults",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_struct(VaultData)5679_storage)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:116"
+          },
+          {
+            "label": "_rewardsEarned",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:117"
+          },
+          {
+            "label": "_bonusTokenSet",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_struct(AddressSet)3584_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:118"
+          },
+          {
+            "label": "_vaultFactory",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_address",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:119"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(RewardSchedule)5671_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(StakeData)5686_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.StakeData[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(VaultData)5679_storage)": {
+            "label": "mapping(address => struct IStakingCenterTimed.VaultData)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AddressSet)3584_storage": {
+            "label": "struct EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)3319_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(RewardSchedule)5671_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule",
+            "members": [
+              {
+                "label": "duration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "shares",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Set)3319_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(StakeData)5686_storage": {
+            "label": "struct IStakingCenterTimed.StakeData",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(StakingCenterData)5664_storage": {
+            "label": "struct IStakingCenterTimed.StakingCenterData",
+            "members": [
+              {
+                "label": "stakingToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "rewardToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "rewardPool",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "rewardSharesOutstanding",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "totalStakeUnits",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "lastUpdate",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "lockDuration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "rewardSchedules",
+                "type": "t_array(t_struct(RewardSchedule)5671_storage)dyn_storage",
+                "offset": 0,
+                "slot": "8"
+              }
+            ],
+            "numberOfBytes": "288"
+          },
+          "t_struct(VaultData)5679_storage": {
+            "label": "struct IStakingCenterTimed.VaultData",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "stakes",
+                "type": "t_array(t_struct(StakeData)5686_storage)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "d7552ff6318bed847fbc368344a6fbd5bad7da68d877e39d4151e3a9aefeb166": {
+      "address": "0xf8ec9b5b437A58e4949Cd9D048a67504C2eDfD8c",
+      "txHash": "0x8f03979752df410299629ec02b30f10c5202d03d4c46900c627513934652e111",
+      "layout": {
+        "storage": [
+          {
+            "label": "_powerSwitch",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Powered",
+            "src": "contracts/PowerSwitch/Powered.sol:23"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_stakingCenter",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_struct(StakingCenterData)5664_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:115"
+          },
+          {
+            "label": "_vaults",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_struct(VaultData)5679_storage)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:116"
+          },
+          {
+            "label": "_rewardsEarned",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:117"
+          },
+          {
+            "label": "_bonusTokenSet",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_struct(AddressSet)3584_storage",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:118"
+          },
+          {
+            "label": "_vaultFactory",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_address",
+            "contract": "StakingCenterTimed",
+            "src": "contracts/StakingCenterTimed.sol:119"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(RewardSchedule)5671_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(StakeData)5686_storage)dyn_storage": {
+            "label": "struct IStakingCenterTimed.StakeData[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(VaultData)5679_storage)": {
+            "label": "mapping(address => struct IStakingCenterTimed.VaultData)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AddressSet)3584_storage": {
+            "label": "struct EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)3319_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(RewardSchedule)5671_storage": {
+            "label": "struct IStakingCenterTimed.RewardSchedule",
+            "members": [
+              {
+                "label": "duration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "shares",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Set)3319_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(StakeData)5686_storage": {
+            "label": "struct IStakingCenterTimed.StakeData",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(StakingCenterData)5664_storage": {
+            "label": "struct IStakingCenterTimed.StakingCenterData",
+            "members": [
+              {
+                "label": "stakingToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "rewardToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "rewardPool",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "rewardSharesOutstanding",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "totalStakeUnits",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "lastUpdate",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "lockDuration",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "rewardSchedules",
+                "type": "t_array(t_struct(RewardSchedule)5671_storage)dyn_storage",
+                "offset": 0,
+                "slot": "8"
+              }
+            ],
+            "numberOfBytes": "288"
+          },
+          "t_struct(VaultData)5679_storage": {
+            "label": "struct IStakingCenterTimed.VaultData",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "totalStake",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "stakes",
+                "type": "t_array(t_struct(StakeData)5686_storage)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
